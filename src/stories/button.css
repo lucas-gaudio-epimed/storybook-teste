@@ -1,0 +1,109 @@
+.storybook-button {
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0;
+  margin-right: 2em;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  border-radius: 4px;
+}
+
+.storybook-button--primary {
+  color: white;
+  background-color: #005ce5;
+  border: 1px solid #005ce5;
+}
+.storybook-button--primary:hover {
+  background-color: #0048b2;
+  border: 1px solid #0048b2;
+  transition-duration: 0.4s;
+}
+
+.storybook-button--primary:disabled {
+  background-color: #4c94ff;
+}
+
+.storybook-button--primary-outline {
+  color: #005ce5;
+  background-color: #fff;
+  border: 1px solid #005ce5;
+}
+.storybook-button--primary-outline:hover {
+  color: white;
+  background-color: #005ce5;
+  border: 1px solid #005ce5;
+  transition-duration: 0.4s;
+}
+
+.storybook-button--primary-outline:disabled {
+  color: white;
+  background-color: #abbdd2;
+  border: 1px solid #abbdd2;
+}
+
+.storybook-button--secondary {
+  color: white;
+  background-color: #546982;
+  border: 1px solid #546982;
+}
+
+.storybook-button--secondary:hover {
+  background-color: #26374c;
+  border: 1px solid #26374c;
+  transition-duration: 0.4s;
+}
+
+.storybook-button--secondary:disabled {
+  background-color: #abbdd2;
+  border: 1px solid #abbdd2;
+}
+
+.storybook-button--secondary-outline {
+  color: #546982;
+  background-color: #fff;
+  border: 1px solid #546982;
+}
+
+.storybook-button--secondary-outline:hover {
+  background-color: #546982;
+  border: 1px solid #546982;
+  transition-duration: 0.4s;
+}
+
+.storybook-button--secondary-outline:disabled {
+  background-color: #abbdd2;
+  border: 1px solid #abbdd2;
+}
+
+.storybook-button--error {
+  color: #cc0000;
+  background-color: #fff;
+  border: 1px solid #cc0000;
+}
+.storybook-button--error:hover {
+  background-color: #cc0000;
+  border: 1px solid #cc0000;
+  color: #fff;
+  transition-duration: 0.4s;
+}
+
+.storybook-button--error:disabled {
+  color: #ff6666;
+  background-color: #fff;
+  border: 1px solid #ff6666;
+}
+
+.storybook-button--small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+.storybook-button--medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+.storybook-button--large {
+  font-size: 16px;
+  padding: 12px 24px;
+}

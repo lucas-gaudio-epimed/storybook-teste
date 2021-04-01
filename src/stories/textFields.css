@@ -1,0 +1,32 @@
+.storybook-textfields {
+  box-sizing: border-box;
+  background-color: white;
+  padding: 12px 20px 12px 40px;
+  outline: none !important;
+  border: 2px solid #e3e3f2;
+  border-radius: 4px;
+}
+
+.storybook-textfields--default:focus {
+  border: 1px solid #6c68bb;
+}
+
+.storybook-textfields--error:focus {
+  border: 1px solid #cc0000;
+}
+
+.storybook-textfields--small {
+  padding: 2px 8px;
+  width: 125px;
+  height: 28px;
+}
+.storybook-textfields--medium {
+  padding: 6px 12px;
+  width: 165px;
+  height: 36px;
+}
+.storybook-textfields--large {
+  padding: 8px 16px;
+  width: 203px;
+  height: 48px;
+}
